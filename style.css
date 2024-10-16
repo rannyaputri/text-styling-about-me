@@ -1,0 +1,25 @@
+/* Default text styling */
+#about-text {
+      opacity: 0.9;
+      color: gray;
+      transition: color 0.3s ease;
+}
+
+/* Hover effect on text */
+#about-text:hover {
+      color: white;
+
+}
+
+/* Individual word styling */
+#about-text span {
+      opacity: 0.9;
+      color: gray;
+      transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Ketika dalam tampilan (triggered by JavaScript) */
+.in-view span {
+      opacity: 1;
+      color: white;
+}
